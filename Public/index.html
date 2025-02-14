@@ -1,0 +1,386 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../src/output.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/flowbite@3.0.0/dist/flowbite.min.css" rel="stylesheet" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+
+  <!-- <div id="intro" class="fixed inset-0 bg-black flex items-center justify-center z-50">
+    <h1 class="text-white text-5xl animate__animated animate__fadeInDown">Welcome to JotCoffe ☕️</h1>
+  </div> -->
+
+  <!-- <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      setTimeout(function() {
+        document.getElementById("intro").classList.add("animate__animated", "animate__fadeOutUp");
+        setTimeout(function() {
+          document.getElementById("intro").classList.add("hidden");
+        }, 1000); // Adjust the duration to match the animation duration
+      }, 3000); // Adjust the duration as needed
+    });
+  </script> -->
+
+
+  <div class="bg-amber-500 text-white py-2">
+    <div class="container mx-auto">
+      <marquee behavior="scroll" direction="left" scrollamount="5">
+        Welcome to JotCoffe! Enjoy our special Coffe & Snack! ☕️☕️ Get 50% discount for all products!
+      </marquee>
+    </div>
+  </div>
+  <nav class="bg-white shadow-lg">
+    <div class="container mx-auto p-5 flex justify-between items-center">
+      <div class="flex items-center">
+        <div class="text-6xl">☕️</div>
+        <h1 class="text-gray-800 text-3xl ml-2">JotCoffe</h1>
+      </div>
+      <div class="hidden md:flex space-x-4 items-center">
+        <input type="text" placeholder="Search" class="border rounded-full px-4 py-2">
+        <a href="#" class="text-gray-600 hover:text-gray-800">Home</a>
+        <a href="#" class="text-gray-600 hover:text-gray-800">Shop</a>
+        <a href="#" class="text-gray-600 hover:text-gray-800">About</a>
+        <a href="#" class="text-gray-600 hover:text-gray-800">Contact</a>
+        <a href="#" class="bg-amber-500 rounded-full text-white hover:bg-white hover:text-amber-500 p-2">Cart (0)</a>
+      </div>
+      <div class="md:hidden flex items-center">
+        <button class="outline-none mobile-menu-button">
+          <svg class="w-6 h-6 text-gray-600" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor">
+            <path d="M4 6h16M4 12h16m-7 6h7"></path>
+          </svg>
+        </button>
+      </div>
+    </div>
+    <div class="hidden mobile-menu">
+      <ul class="">
+        <li class="active"><a href="#" class="block text-sm px-2 py-4 text-white bg-amber-500">Home</a></li>
+        <li><a href="#" class="block text-sm px-2 py-4 hover:bg-amber-500 transition duration-300">Shop</a></li>
+        <li><a href="#" class="block text-sm px-2 py-4 hover:bg-amber-500 transition duration-300">About</a></li>
+        <li><a href="#" class="block text-sm px-2 py-4 hover:bg-amber-500 transition duration-300">Contact</a></li>
+        <li><a href="#" class="block text-sm px-2 py-4 hover:bg-amber-500 transition duration-300">Cart (0)</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="relative w-full h-screen overflow-hidden">
+    <video class="absolute top-0 left-0 w-full h-full object-cover" autoplay loop muted playsinline>
+      <source src="../src/img/video/kopi.mp4" type="video/mp4">
+    </video>
+    <div class="absolute inset-0 bg-black opacity-80"></div>
+    <div class="relative z-10 flex items-center justify-center h-full text-center text-white">
+      <div>
+        <h1 class="text-5xl md:text-7xl font-bold mb-4 animate__animated animate__fadeInDown opacity-90">Welcome to <span class="bg-yellow-500 px-2">JotCoffe</span></h1>
+        <p class="text-xl md:text-2xl mb-8 animate__animated animate__fadeInUp">Your one-stop shop for all your needs</p>
+        <a href="#" class="bg-amber-500 hover:bg-amber-600 text-white font-bold py-3 px-6 rounded-full animate__animated animate__zoomIn">Shop Now</a>
+      </div>
+    </div>
+  </div>
+  
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+<div class="container mx-auto mt-12">
+  <div class="flex justify-center">
+    <input type="text" placeholder="Search for Coffe ☕️☕️..." class="border rounded-full px-4 py-2 w-full md:w-1/2">
+    <button class="bg-amber-500 text-white rounded-full px-4 py-2 ml-2 hover:bg-amber-600">Search</button>
+  </div>
+</div>
+
+<div class="grid grid-cols-2 md:grid-cols-4 gap-4 m-16">
+  <!-- Card Produk -->
+  <div class="flex items-center bg-white rounded-xl shadow p-4">
+      <img src="https://via.placeholder.com/80" alt="Filter Air" class="w-16 h-16 rounded-lg">
+      <div class="ml-3">
+          <h3 class="text-lg font-bold">Filter Air</h3>
+          <p class="text-gray-500 text-sm">1jt produk</p>
+      </div>
+  </div>
+
+  <div class="flex items-center bg-white rounded-xl shadow p-4">
+      <img src="https://via.placeholder.com/80" alt="Gtx 1650" class="w-16 h-16 rounded-lg">
+      <div class="ml-3">
+          <h3 class="text-lg font-bold">Gtx 1650</h3>
+          <p class="text-gray-500 text-sm">32rb produk</p>
+      </div>
+  </div>
+
+  <div class="flex items-center bg-white rounded-xl shadow p-4">
+      <img src="https://via.placeholder.com/80" alt="Rtx 3080" class="w-16 h-16 rounded-lg">
+      <div class="ml-3">
+          <h3 class="text-lg font-bold">Rtx 3080</h3>
+          <p class="text-gray-500 text-sm">7rb produk</p>
+      </div>
+  </div>
+
+  <div class="flex items-center bg-white rounded-xl shadow p-4">
+      <img src="https://via.placeholder.com/80" alt="Lem Tikus" class="w-16 h-16 rounded-lg">
+      <div class="ml-3">
+          <h3 class="text-lg font-bold">Lem Tikus</h3>
+          <p class="text-gray-500 text-sm">30rb produk</p>
+      </div>
+  </div>
+
+  <div class="flex items-center bg-white rounded-xl shadow p-4">
+      <img src="https://via.placeholder.com/80" alt="Sepatu Safety" class="w-16 h-16 rounded-lg">
+      <div class="ml-3">
+          <h3 class="text-lg font-bold">Sepatu Safety</h3>
+          <p class="text-gray-500 text-sm">485rb produk</p>
+      </div>
+  </div>
+
+  <div class="flex items-center bg-white rounded-xl shadow p-4">
+      <img src="https://via.placeholder.com/80" alt="Kompor Listrik" class="w-16 h-16 rounded-lg">
+      <div class="ml-3">
+          <h3 class="text-lg font-bold">Kompor Listrik</h3>
+          <p class="text-gray-500 text-sm">239rb produk</p>
+      </div>
+  </div>
+
+  <div class="flex items-center bg-white rounded-xl shadow p-4">
+      <img src="https://via.placeholder.com/80" alt="Tempat Makan" class="w-16 h-16 rounded-lg">
+      <div class="ml-3">
+          <h3 class="text-lg font-bold">Tempat Makan</h3>
+          <p class="text-gray-500 text-sm">561rb produk</p>
+      </div>
+  </div>
+
+  <div class="flex items-center bg-white rounded-xl shadow p-4">
+      <img src="https://via.placeholder.com/80" alt="Water Heater" class="w-16 h-16 rounded-lg">
+      <div class="ml-3">
+          <h3 class="text-lg font-bold">Water Heater</h3>
+          <p class="text-gray-500 text-sm">581rb produk</p>
+      </div>
+  </div>
+</div>
+
+  <div class="container mx-auto mt-5">
+    <div class="flex justify-center space-x-4 text-center">
+      <div class="flex flex-col items-center transform transition-transform duration-300 hover:scale-110 mr-10 ml-10">
+        <img src="https://dummyimage.com/50x50" alt="Icon 1" class="mb-2">
+        <h3 class="text-lg font-semibold">Biji Kopi Pilhan</h3>
+      </div>
+      <div class="flex flex-col items-center transform transition-transform duration-300 hover:scale-110 mr-10 ml-10">
+        <img src="https://dummyimage.com/50x50" alt="Icon 2" class="mb-2">
+        <h3 class="text-lg font-semibold">Kopi Bubuk Premium</h3>
+      </div>
+      <div class="flex flex-col items-center transform transition-transform duration-300 hover:scale-110 mr-10 ml-10">
+        <img src="https://dummyimage.com/50x50/000/fff&text=Kopi+Susu" alt="Icon 3" class="mb-2">
+        <h3 class="text-lg font-semibold">Kopi susu</h3>
+      </div>
+      <div class="flex flex-col items-center transform transition-transform duration-300 hover:scale-110 mr-10 ml-10">
+        <img src="https://dummyimage.com/50x50/000/fff&text=Ekspresso" alt="Icon 4" class="mb-2">
+        <h3 class="text-lg font-semibold">Expresso</h3>
+      </div>
+      <div class="flex flex-col items-center transform transition-transform duration-300 hover:scale-110 mr-10 ml-10">
+        <img src="https://dummyimage.com/50x50/000/fff&text=Latte+Art" alt="Latte Art Icon" class="mb-2">
+        <h3 class="text-lg font-semibold">Latte Art</h3>
+      </div>
+    </div>
+  </div>
+ 
+
+  <div class="flex overflow-x-hidden mt-12 justify-center">
+    <div class="flex animate-marquee space-x-12">
+      <img src="https://dummyimage.com/100x100" class="h-24 w-24 transform transition-transform duration-300 hover:scale-110" alt="Logo 1">
+      <img src="https://dummyimage.com/100x100" class="h-24 w-24 transform transition-transform duration-300 hover:scale-110" alt="Logo 2">
+      <img src="https://dummyimage.com/100x100" class="h-24 w-24 transform transition-transform duration-300 hover:scale-110" alt="Logo 3">
+      <img src="https://dummyimage.com/100x100" class="h-24 w-24 transform transition-transform duration-300 hover:scale-110" alt="Logo 4">
+      <img src="https://dummyimage.com/100x100" class="h-24 w-24 transform transition-transform duration-300 hover:scale-110" alt="Logo 5">
+    </div>
+    <div class="flex animate-marquee space-x-12">
+      <img src="https://dummyimage.com/100x100" class="h-24 w-24 transform transition-transform duration-300 hover:scale-110" alt="Logo 1">
+      <img src="https://dummyimage.com/100x100" class="h-24 w-24 transform transition-transform duration-300 hover:scale-110" alt="Logo 2">
+      <img src="https://dummyimage.com/100x100" class="h-24 w-24 transform transition-transform duration-300 hover:scale-110" alt="Logo 3">
+      <img src="https://dummyimage.com/100x100" class="h-24 w-24 transform transition-transform duration-300 hover:scale-110" alt="Logo 4">
+      <img src="https://dummyimage.com/100x100" class="h-24 w-24 transform transition-transform duration-300 hover:scale-110" alt="Logo 5">
+    </div>
+  </div>
+
+  <div class="container mx-auto mt-32 text-center">
+    <h2 class="text-3xl font-bold">Most Ordered</h2>
+  </div>
+  <div class="container mx-auto mt-12"></div>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 m-16">
+      <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+        <img src="https://dummyimage.com/400x300" alt="Product Image" class="w-full h-48 object-cover">
+        <div class="p-4">
+          <h3 class="text-lg font-semibold">Product Name 1</h3>
+          <p class="text-gray-600 mt-2">This is a brief description of the product. It highlights the key features and benefits.</p>
+          <div class="flex items-center mt-4">
+            <span class="text-yellow-500">
+              ★★★★☆
+            </span>
+            <span class="ml-2 text-gray-600">(4.0)</span>
+          </div>
+          <a href="#" class="bg-amber-500 hover:bg-amber-600 text-white font-bold py-2 px-4 rounded-full mt-4 inline-block">View Product</a>
+        </div>
+      </div>
+      <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+        <img src="https://dummyimage.com/400x300" alt="Product Image" class="w-full h-48 object-cover">
+        <div class="p-4">
+          <h3 class="text-lg font-semibold">Product Name 2</h3>
+          <p class="text-gray-600 mt-2">This is a brief description of the product. It highlights the key features and benefits.</p>
+          <div class="flex items-center mt-4">
+            <span class="text-yellow-500">
+              ★★★★☆
+            </span>
+            <span class="ml-2 text-gray-600">(4.0)</span>
+          </div>
+          <a href="#" class="bg-amber-500 hover:bg-amber-600 text-white font-bold py-2 px-4 rounded-full mt-4 inline-block">View Product</a>
+        </div>
+      </div>
+      <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+        <img src="https://dummyimage.com/400x300" alt="Product Image" class="w-full h-48 object-cover">
+        <div class="p-4">
+          <h3 class="text-lg font-semibold">Product Name 3</h3>
+          <p class="text-gray-600 mt-2">This is a brief description of the product. It highlights the key features and benefits.</p>
+          <div class="flex items-center mt-4">
+            <span class="text-yellow-500">
+              ★★★★☆
+            </span>
+            <span class="ml-2 text-gray-600">(4.0)</span>
+          </div>
+          <a href="#" class="bg-amber-500 hover:bg-amber-600 text-white font-bold py-2 px-4 rounded-full mt-4 inline-block">View Product</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ---------------- -->
+
+  <section class="menu m-10">
+    
+    <div class="menu m-5">
+      <div class="menu1 flex">
+        <div class="img m-5"><img src="https://dummyimage.com/400x300" alt=""></div>
+
+        <div class="text mt-16">
+            <div class="judul "><h1 class="font-bold text-6xl">Menu 1</h1></div>
+            <div class="desk "><h1 class="text-1xl text-gray-600 mt-5">This is a brief description of the product. It highlights the key features and benefits.</h1></div>
+            <div class="bnt mt-5">
+            <span class="text-yellow-500">
+              ★★★★☆
+            </span>
+            <span class="ml-2 text-gray-600">(4.0)</span>
+          </div>
+          <a href="#" class="bg-amber-500 hover:bg-amber-600 text-white font-bold py-2 px-4 rounded-full mt-4 inline-block">View Product</a>
+        </div>
+        
+      </div>
+    </div>
+
+    <div class="menu m-5">
+      <div class="menu1 flex">
+        <div class="img m-5"><img src="https://dummyimage.com/400x300" alt=""></div>
+
+        <div class="text mt-16">
+            <div class="judul "><h1 class="font-bold text-6xl">Menu 1</h1></div>
+            <div class="desk "><h1 class="text-1xl text-gray-600 mt-5">This is a brief description of the product. It highlights the key features and benefits.</h1></div>
+            <div class="bnt mt-5">
+            <span class="text-yellow-500">
+              ★★★★☆
+            </span>
+            <span class="ml-2 text-gray-600">(4.0)</span>
+          </div>
+          <a href="#" class="bg-amber-500 hover:bg-amber-600 text-white font-bold py-2 px-4 rounded-full mt-4 inline-block">View Product</a>
+        </div>
+        
+      </div>
+    </div>
+
+    <div class="menu m-5">
+      <div class="menu1 flex">
+        <div class="img m-5"><img src="https://dummyimage.com/400x300" alt=""></div>
+
+        <div class="text mt-16">
+            <div class="judul "><h1 class="font-bold text-6xl">Menu 1</h1></div>
+            <div class="desk "><h1 class="text-1xl text-gray-600 mt-5">This is a brief description of the product. It highlights the key features and benefits.</h1></div>
+            <div class="bnt mt-5">
+            <span class="text-yellow-500">
+              ★★★★☆
+            </span>
+            <span class="ml-2 text-gray-600">(4.0)</span>
+          </div>
+          <a href="#" class="bg-amber-500 hover:bg-amber-600 text-white font-bold py-2 px-4 rounded-full mt-4 inline-block">View Product</a>
+        </div>
+        
+      </div>
+    </div>
+
+    <div class="menu m-5">
+      <div class="menu1 flex">
+        <div class="img m-5"><img src="https://dummyimage.com/400x300" alt=""></div>
+
+        <div class="text mt-16">
+            <div class="judul "><h1 class="font-bold text-6xl">Menu 1</h1></div>
+            <div class="desk "><h1 class="text-1xl text-gray-600 mt-5">This is a brief description of the product. It highlights the key features and benefits.</h1></div>
+            <div class="bnt mt-5">
+            <span class="text-yellow-500">
+              ★★★★☆
+            </span>
+            <span class="ml-2 text-gray-600">(4.0)</span>
+          </div>
+          <a href="#" class="bg-amber-500 hover:bg-amber-600 text-white font-bold py-2 px-4 rounded-full mt-4 inline-block">View Product</a>
+        </div>
+        
+      </div>
+    </div>
+
+    <div class="menu m-5">
+      <div class="menu1 flex">
+        <div class="img m-5"><img src="https://dummyimage.com/400x300" alt=""></div>
+
+        <div class="text mt-16">
+            <div class="judul "><h1 class="font-bold text-6xl">Menu 1</h1></div>
+            <div class="desk "><h1 class="text-1xl text-gray-600 mt-5">This is a brief description of the product. It highlights the key features and benefits.</h1></div>
+            <div class="bnt mt-5">
+            <span class="text-yellow-500">
+              ★★★★☆
+            </span>
+            <span class="ml-2 text-gray-600">(4.0)</span>
+          </div>
+          <a href="#" class="bg-amber-500 hover:bg-amber-600 text-white font-bold py-2 px-4 rounded-full mt-4 inline-block">View Product</a>
+        </div>
+        
+      </div>
+    </div>
+
+    <div class="menu m-5">
+      <div class="menu1 flex">
+        <div class="img m-5"><img src="https://dummyimage.com/400x300" alt=""></div>
+
+        <div class="text mt-16">
+            <div class="judul "><h1 class="font-bold text-6xl">Menu 1</h1></div>
+            <div class="desk "><h1 class="text-1xl text-gray-600 mt-5">This is a brief description of the product. It highlights the key features and benefits.</h1></div>
+            <div class="bnt mt-5">
+            <span class="text-yellow-500">
+              ★★★★☆
+            </span>
+            <span class="ml-2 text-gray-600">(4.0)</span>
+          </div>
+          <a href="#" class="bg-amber-500 hover:bg-amber-600 text-white font-bold py-2 px-4 rounded-full mt-4 inline-block">View Product</a>
+        </div>
+        
+      </div>
+    </div>
+
+  </section>
+
+  
+
+  
+
+  <script src="https://cdn.jsdelivr.net/npm/flowbite@3.0.0/dist/flowbite.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    const btn = document.querySelector("button.mobile-menu-button");
+    const menu = document.querySelector(".mobile-menu");
+
+    btn.addEventListener("click", () => {
+      menu.classList.toggle("hidden");
+    });
+  </script>
+</body>
+</html>
