@@ -1,6 +1,6 @@
 Website Ecommerce JOTCoffe | @mirzadfrpl 🇮🇩
 
-Hi 👋 we are a SMK student that joined the competition 
+Hi 👋  I am Mirza Danish faturrahman
 
 Contact me
 - Ig [ig](https://www.instagram.com/mirzadnshfr12_/)
