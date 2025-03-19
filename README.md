@@ -9,7 +9,7 @@ Selamat datang di **JotCoffee** – website terbaik untuk menikmati dan memesan 
 - 📝 **Edit Profile** – Kelola akun dan sesuaikan profilmu.
 
 ## 📸 Tampilan Website
-![JotCoffee Screenshot]([A4 - 5.png](https://github.com/mirzadfrpl/ecommerce-tailwind/blob/main/A4%20-%205.png))
+![JotCoffee Screenshot](https://raw.githubusercontent.com/mirzadfrpl/ecommerce-tailwind/main/A4%20-%205.png)
 
 ## 🚀 Cara Menjalankan Project
 ```bash
