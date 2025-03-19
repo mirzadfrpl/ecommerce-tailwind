@@ -761,6 +761,9 @@
   .mt-32 {
     margin-top: calc(var(--spacing) * 32);
   }
+  .mt-36 {
+    margin-top: calc(var(--spacing) * 36);
+  }
   .mr-10 {
     margin-right: calc(var(--spacing) * 10);
   }
@@ -793,6 +796,15 @@
   }
   .ml-10 {
     margin-left: calc(var(--spacing) * 10);
+  }
+  .ml-26 {
+    margin-left: calc(var(--spacing) * 26);
+  }
+  .ml-28 {
+    margin-left: calc(var(--spacing) * 28);
+  }
+  .ml-32 {
+    margin-left: calc(var(--spacing) * 32);
   }
   .box-border {
     box-sizing: border-box;
@@ -1498,6 +1510,9 @@
   }
   .rounded {
     border-radius: 0.25rem;
+  }
+  .rounded-3xl {
+    border-radius: var(--radius-3xl);
   }
   .rounded-full {
     border-radius: calc(infinity * 1px);
