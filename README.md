@@ -9,7 +9,7 @@ Selamat datang di **JotCoffee** – website terbaik untuk menikmati dan memesan 
 - 📝 **Edit Profile** – Kelola akun dan sesuaikan profilmu.
 
 ## 📸 Tampilan Website
-![JotCoffee Screenshot](https://source.unsplash.com/featured/?coffee-shop)
+![JotCoffee Screenshot](A4 - 5.png)
 
 ## 🚀 Cara Menjalankan Project
 ```bash
