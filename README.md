@@ -2,8 +2,6 @@
 
 Selamat datang di **JotCoffee** – website terbaik untuk menikmati dan memesan kopi favoritmu secara online! 🚀
 
-![JotCoffee Banner](https://source.unsplash.com/featured/?coffee)
-
 ## ✨ Fitur Utama
 - 🔑 **Login & Register** – Buat akun dan nikmati pengalaman terbaik.
 - 📋 **View Product** – Lihat berbagai jenis kopi yang tersedia.
@@ -29,12 +27,10 @@ yarn dev atau npm run dev
 ```
 
 ## 📌 Teknologi yang Digunakan
-- **Frontend**: React + Tailwind CSS
-- **Backend**: Node.js + Express
-- **Database**: MongoDB
+- **Frontend**: Tailwind CSS
 
 ## 📞 Kontak & Kontribusi
 Jika ada pertanyaan atau ingin berkontribusi, jangan ragu untuk menghubungi kami! ☕
 
 ---
-Made with ❤️ by **JotCoffee Team**
+Made with ❤️ by **Mirza Danish Faturrahman**
