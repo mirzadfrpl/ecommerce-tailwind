@@ -1,8 +1,40 @@
-Website Ecommerce JOTCoffe | @mirzadfrpl 🇮🇩
+# JotCoffee ☕
 
-Hi 👋  I am Mirza Danish faturrahman
+Selamat datang di **JotCoffee** – website terbaik untuk menikmati dan memesan kopi favoritmu secara online! 🚀
 
-Contact me
-- Ig [ig](https://www.instagram.com/mirzadnshfr12_/)
-- Whatsapp [wa](https://www.instagram.com/fln_ia/)
-- youtube [youtube](https://www.instagram.com/athmgq/)
+![JotCoffee Banner](https://source.unsplash.com/featured/?coffee)
+
+## ✨ Fitur Utama
+- 🔑 **Login & Register** – Buat akun dan nikmati pengalaman terbaik.
+- 📋 **View Product** – Lihat berbagai jenis kopi yang tersedia.
+- 🛒 **Pemesanan Kopi** – Pesan kopi favoritmu dengan mudah.
+- 📝 **Edit Profile** – Kelola akun dan sesuaikan profilmu.
+
+## 📸 Tampilan Website
+![JotCoffee Screenshot](https://source.unsplash.com/featured/?coffee-shop)
+
+## 🚀 Cara Menjalankan Project
+```bash
+# Clone repository
+git clone https://github.com/username/jotcoffee.git
+
+# Masuk ke direktori
+cd jotcoffee
+
+# Install dependencies
+npm install
+
+# Jalankan server
+yarn dev atau npm run dev
+```
+
+## 📌 Teknologi yang Digunakan
+- **Frontend**: React + Tailwind CSS
+- **Backend**: Node.js + Express
+- **Database**: MongoDB
+
+## 📞 Kontak & Kontribusi
+Jika ada pertanyaan atau ingin berkontribusi, jangan ragu untuk menghubungi kami! ☕
+
+---
+Made with ❤️ by **JotCoffee Team**
