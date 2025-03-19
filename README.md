@@ -29,8 +29,5 @@ yarn dev atau npm run dev
 ## 📌 Teknologi yang Digunakan
 - **Frontend**: Tailwind CSS
 
-## 📞 Kontak & Kontribusi
-Jika ada pertanyaan atau ingin berkontribusi, jangan ragu untuk menghubungi kami! ☕
-
 ---
 Made with ❤️ by **Mirza Danish Faturrahman**
